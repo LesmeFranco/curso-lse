@@ -40,8 +40,19 @@ void display_digit(int digit)
     if (digit < 0 || digit > 9)
         return;
     uint8_t seg = digit_to_segments[digit];
-    printf("Mostrando el dígito %d en 7 segmentos: 0x%02X\n", digit, seg);
 
+    // Encender los segmentos correspondientes
+    GPIO_PinWrite(LED_A, (seg >> 0) & 1);
+    GPIO_PinWrite(LED_B, (seg >> 1) & 1);
+    GPIO_PinWrite(LED_C, (seg >> 2) & 1);
+    GPIO_PinWrite(LED_D, (seg >> 3) & 1);
+    GPIO_PinWrite(LED_E, (seg >> 4) & 1);
+    GPIO_PinWrite(LED_F, (seg >> 5) & 1);
+    GPIO_PinWrite(LED_G, (seg >> 6) & 1);
+}
+
+int main(void)
+{
     // Encender los pines correspondientes
     GPIO_PortInit(GPIO, 0);
     gpio_pin_config_t out_config = {.pinDirection = kGPIO_DigitalOutput, .outputLogic = 1};
@@ -57,24 +68,11 @@ void display_digit(int digit)
 
     while (1)
     {
-        GPIO_PinWrite(LED_A, 1);
-        GPIO_PinWrite(LED_B, 1);
-        GPIO_PinWrite(LED_C, 1);
-        GPIO_PinWrite(LED_D, 1);
-        GPIO_PinWrite(LED_E, 1);
-        GPIO_PinWrite(LED_F, 1);
-        GPIO_PinWrite(LED_G, 1);
+        for (int i = 0; i < 10; i++)
+        {
+            display_digit(i);
+            for (volatile int d = 0; d < 1000000; d++)
+                ;
+        }
     }
-
-    return;
-}
-
-int main(void)
-{
-    for (int i = 0; i < 10; i++)
-    {
-        display_digit(i);
-    }
-    while (1)
-        ; // Bucle infinito para que el programa no termine
 }
