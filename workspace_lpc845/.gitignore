@@ -1,4 +1,3 @@
-
 # Ignorar todo dentro de 01_animation excepto main.c
 01_animation/*
 !01_animation/main.c
