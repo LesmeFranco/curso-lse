@@ -52,12 +52,12 @@ void display_digit(int digit)
 
     // Activa solo el dígito izquierdo (A1)
     GPIO_PinWrite(GPIO, 0, 8, 1); // A1 en bajo (activo)
-    GPIO_PinWrite(GPIO, 0, 9, 0); // A2 en alto (apagado)
+    GPIO_PinWrite(GPIO, 0, 9, 1); // A2 en alto (apagado)
 }
 
 int main(void)
 {
-    // Encender los pines correspondientes   
+    // Encender los pines correspondientes
     GPIO_PortInit(GPIO, 0);
     gpio_pin_config_t out_config = {.pinDirection = kGPIO_DigitalOutput, .outputLogic = 0};
 
@@ -74,12 +74,13 @@ int main(void)
     GPIO_PinInit(GPIO, 0, 8, &out_config); // A1
     GPIO_PinInit(GPIO, 0, 9, &out_config); // A2
 
-    while(1)
+    while (1)
     {
         for (int i = 0; i < 10; i++)
         {
             display_digit(i);
-            for (volatile int d = 0; d < 300000; d++); // Retardo simple
+            for (volatile int d = 0; d < 300000; d++)
+                ; // Retardo simple
         }
     }
 }
