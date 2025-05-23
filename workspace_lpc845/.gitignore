@@ -1,2 +1,2 @@
 # Ignorar carpetas y archivos del entorno de desarrollo
-armgcc/debug/
+**/armgcc/debug/
