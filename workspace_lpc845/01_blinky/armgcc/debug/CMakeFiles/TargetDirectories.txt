@@ -1,0 +1,3 @@
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_blinky/armgcc/debug/CMakeFiles/new_project.elf.dir
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_blinky/armgcc/debug/CMakeFiles/edit_cache.dir
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_blinky/armgcc/debug/CMakeFiles/rebuild_cache.dir

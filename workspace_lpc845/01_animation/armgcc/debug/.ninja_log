@@ -1,0 +1,26 @@
+# ninja log v6
+3	91	7697131943926672	CMakeFiles/new_project.elf.dir/C_/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_animation/main.c.obj	30ff41e7344a1e22
+62	405	7695591517813930	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_inputmux.c.obj	d9bdba04fbffa62b
+41	425	7695591517599139	CMakeFiles/new_project.elf.dir/af2f6603f784a607f3ea57cbc8c6023b/workspace_lpc845/sdks/01_animation_sdk/devices/LPC845/system_LPC845.c.obj	999fba2c07502d6f
+55	353	7695591517753847	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj	50eef811e476ed85
+88	346	7695591518060828	CMakeFiles/new_project.elf.dir/af2f6603f784a607f3ea57cbc8c6023b/workspace_lpc845/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_swm.c.obj	53de91657893e853
+11	211	7695591517297221	CMakeFiles/new_project.elf.dir/0cac0da7c0f9b428d1f29bcd0d40c0e0/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_animation/peripherals.c.obj	9ca7afeadc348ad4
+24	358	7695591517429866	CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/workspace_lpc845/01_animation/clock_config.c.obj	a3a12b3bf9926175
+37	284	7695591517559360	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/gcc/startup_LPC845.S.obj	fc98c5984140dd33
+14	384	7695591517338905	CMakeFiles/new_project.elf.dir/C_/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_animation/pin_mux.c.obj	a480191938863c99
+51	411	7695591517707741	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_common.c.obj	2cec385ab946bc4d
+33	412	7695591517519025	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/components/uart/fsl_adapter_miniusart.c.obj	4f5b132b47049544
+28	414	7695591517442609	CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/workspace_lpc845/01_animation/hardware_init.c.obj	9bc88d30bd19862b
+68	418	7695591517860957	CMakeFiles/new_project.elf.dir/af2f6603f784a607f3ea57cbc8c6023b/workspace_lpc845/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_gpio.c.obj	f62c48f86ff10b5b
+19	419	7695591517376363	CMakeFiles/new_project.elf.dir/C_/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_animation/board.c.obj	d37c616d9b013d9e
+76	436	7695591517952140	CMakeFiles/new_project.elf.dir/af2f6603f784a607f3ea57cbc8c6023b/workspace_lpc845/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_power.c.obj	b0ab81e22ce4ff26
+46	420	7695591517639294	CMakeFiles/new_project.elf.dir/af2f6603f784a607f3ea57cbc8c6023b/workspace_lpc845/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_clock.c.obj	e17aa3c08fb7714c
+103	446	7695591518228645	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_syscon.c.obj	f61046b7f3d0c1bb
+80	451	7695591518005296	CMakeFiles/new_project.elf.dir/af2f6603f784a607f3ea57cbc8c6023b/workspace_lpc845/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_reset.c.obj	b1e0387f5eb5ccf2
+72	502	7695591517921222	CMakeFiles/new_project.elf.dir/af2f6603f784a607f3ea57cbc8c6023b/workspace_lpc845/sdks/01_animation_sdk/devices/LPC845/drivers/fsl_usart.c.obj	104c4bb7dfe69b10
+284	503	7695591520038068	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/utilities/fsl_sbrk.c.obj	6de9acd001e3e6f2
+353	547	7695591520721653	CMakeFiles/new_project.elf.dir/8dec3be857cd384bc753388d3c34c85d/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj	9c002cd18b2483cd
+348	509	7695591520680864	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/01_animation_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj	b9ead9df0212721e
+358	572	7695591520777620	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/utilities/str/fsl_str.c.obj	6626ca1e93cb71bc
+211	731	7695591519301892	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/utilities/fsl_syscall_stub.c.obj	5bebfda03e270625
+91	234	7697131944652245	new_project.elf	e93ac6dc1927ef36
