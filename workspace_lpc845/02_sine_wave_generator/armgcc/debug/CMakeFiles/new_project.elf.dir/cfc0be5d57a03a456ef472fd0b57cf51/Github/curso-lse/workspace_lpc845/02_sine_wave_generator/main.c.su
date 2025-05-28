@@ -1,0 +1,8 @@
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/02_sine_wave_generator_sdk/CMSIS/Core/Include/core_cm0plus.h:866:22:__NVIC_SetPriority	24	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/02_sine_wave_generator_sdk/CMSIS/Core/Include/core_cm0plus.h:1074:26:SysTick_Config	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_clock.h:558:20:CLOCK_EnableClock	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_clock.h:569:20:CLOCK_DisableClock	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_power.h:153:20:POWER_DisablePD	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_iocon.h:102:22:IOCON_PinMuxSet	24	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/02_sine_wave_generator/main.c:9:5:main	16	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/02_sine_wave_generator/main.c:47:6:SysTick_Handler	8	static
