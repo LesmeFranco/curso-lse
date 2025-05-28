@@ -51,3 +51,7 @@
 364	555	7701446404596968	CMakeFiles/new_project.elf.dir/d140e27bb708da73371c4c0861bc7ad9/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj	86c21ae8b5d6ed26
 370	582	7701446404646942	CMakeFiles/new_project.elf.dir/d140e27bb708da73371c4c0861bc7ad9/devices/LPC845/utilities/str/fsl_str.c.obj	16f2738a13df1b36
 582	785	7701446406685477	new_project.elf	67fd6adbab649d61
+5	138	7701449864155478	CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/workspace_lpc845/02_sine_wave_generator/main.c.obj	ef2d3e06422070b3
+139	320	7701449865488693	new_project.elf	67fd6adbab649d61
+5	128	7701455220750576	CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/workspace_lpc845/02_sine_wave_generator/main.c.obj	ef2d3e06422070b3
+129	273	7701455221979889	new_project.elf	67fd6adbab649d61

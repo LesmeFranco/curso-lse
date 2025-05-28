@@ -38,8 +38,8 @@ int main(void)
 
 // Tabla 16 Valores de la señal senoidal
 const uint32_t values[16] = {
-    0, 64, 128, 191, 255, 319, 383, 447,
-    511, 575, 639, 703, 767, 831, 895, 959};
+    0, 128, 255, 383, 511, 639, 767, 895,
+    767, 639, 511, 383, 255, 128, 0, 0};
 
 // Variable volatil para cambiar generar valores de señal senoidal
 volatile uint8_t Wave = 0;
