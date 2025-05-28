@@ -1227,7 +1227,7 @@ LOAD C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-
  .crp           0x000002fc        0x4 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/gcc/startup_LPC845.S.obj
                 0x00000300                        . = ALIGN (0x4)
 
-.text           0x00000300     0x14d4
+.text           0x00000300     0x1514
                 0x00000300                        . = ALIGN (0x4)
  *(.text)
  .text          0x00000300       0x80 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crt0.o
@@ -1425,109 +1425,109 @@ LOAD C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-
  *(.rodata*)
  *fill*         0x000016e6        0x2 
  .rodata.values
-                0x000016e8       0x40 CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/workspace_lpc845/02_sine_wave_generator/main.c.obj
+                0x000016e8       0x80 CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/workspace_lpc845/02_sine_wave_generator/main.c.obj
                 0x000016e8                values
  .rodata.s_dacBases
-                0x00001728        0x8 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
+                0x00001768        0x8 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
  .rodata.s_dacClocks
-                0x00001730        0x4 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
+                0x00001770        0x4 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
  .rodata.s_dacResets
-                0x00001734        0x8 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
+                0x00001774        0x8 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
  .rodata.__func__.4
-                0x0000173c       0x10 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
+                0x0000177c       0x10 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
  .rodata.__func__.3
-                0x0000174c        0x9 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
- *fill*         0x00001755        0x3 
+                0x0000178c        0x9 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
+ *fill*         0x00001795        0x3 
  .rodata.__func__.1
-                0x00001758       0x13 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
- *fill*         0x0000176b        0x1 
+                0x00001798       0x13 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_dac.c.obj
+ *fill*         0x000017ab        0x1 
  .rodata.__func__.1
-                0x0000176c       0x19 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_reset.c.obj
- *fill*         0x00001785        0x3 
+                0x000017ac       0x19 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+ *fill*         0x000017c5        0x3 
  .rodata.__func__.0
-                0x00001788       0x1b CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_reset.c.obj
- *fill*         0x000017a3        0x1 
+                0x000017c8       0x1b CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+ *fill*         0x000017e3        0x1 
  .rodata.__func__.0
-                0x000017a4       0x16 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+                0x000017e4       0x16 CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/02_sine_wave_generator_sdk/devices/LPC845/drivers/fsl_swm.c.obj
  *(.glue_7)
- .glue_7        0x000017ba        0x0 linker stubs
+ .glue_7        0x000017fa        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000017ba        0x0 linker stubs
+ .glue_7t       0x000017fa        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x000017ba        0x2 
- .eh_frame      0x000017bc        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+ *fill*         0x000017fa        0x2 
+ .eh_frame      0x000017fc        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x000017bc        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
-                0x000017bc                _init
- .init          0x000017c0        0x8 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
+ .init          0x000017fc        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
+                0x000017fc                _init
+ .init          0x00001800        0x8 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x000017c8        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
-                0x000017c8                _fini
- .fini          0x000017cc        0x8 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
-                0x000017d4                        . = ALIGN (0x4)
+ .fini          0x00001808        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
+                0x00001808                _fini
+ .fini          0x0000180c        0x8 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
+                0x00001814                        . = ALIGN (0x4)
 
-.vfp11_veneer   0x000017d4        0x0
- .vfp11_veneer  0x000017d4        0x0 linker stubs
+.vfp11_veneer   0x00001814        0x0
+ .vfp11_veneer  0x00001814        0x0 linker stubs
 
-.v4_bx          0x000017d4        0x0
- .v4_bx         0x000017d4        0x0 linker stubs
+.v4_bx          0x00001814        0x0
+ .v4_bx         0x00001814        0x0 linker stubs
 
-.iplt           0x000017d4        0x0
- .iplt          0x000017d4        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x00001814        0x0
+ .iplt          0x00001814        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000017d4        0x8
-                0x000017d4                        __exidx_start = .
+.ARM            0x00001814        0x8
+                0x00001814                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000017d4        0x8 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crt0.o
+ .ARM.exidx     0x00001814        0x8 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crt0.o
                                  0x10 (size before relaxing)
-                0x000017dc                        __exidx_end = .
+                0x0000181c                        __exidx_end = .
 
-.rel.dyn        0x000017dc        0x0
- .rel.iplt      0x000017dc        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000181c        0x0
+ .rel.iplt      0x0000181c        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.ctors          0x000017dc        0x0
-                0x000017dc                        __CTOR_LIST__ = .
+.ctors          0x0000181c        0x0
+                0x0000181c                        __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x000017dc                        __CTOR_END__ = .
+                0x0000181c                        __CTOR_END__ = .
 
-.dtors          0x000017dc        0x0
-                0x000017dc                        __DTOR_LIST__ = .
+.dtors          0x0000181c        0x0
+                0x0000181c                        __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x000017dc                        __DTOR_END__ = .
+                0x0000181c                        __DTOR_END__ = .
 
-.preinit_array  0x000017dc        0x0
-                0x000017dc                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000181c        0x0
+                0x0000181c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000017dc                        PROVIDE (__preinit_array_end = .)
+                0x0000181c                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000017dc        0x4
-                0x000017dc                        PROVIDE (__init_array_start = .)
+.init_array     0x0000181c        0x4
+                0x0000181c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000017dc        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x000017e0                        PROVIDE (__init_array_end = .)
+ .init_array    0x0000181c        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x00001820                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x000017e0        0x4
+.fini_array     0x00001820        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000017e0        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+ .fini_array    0x00001820        0x4 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000017e4                        __etext = .
-                0x000017e4                        __DATA_ROM = .
+                0x00001824                        __etext = .
+                0x00001824                        __DATA_ROM = .
 
-.data           0x10000000        0x4 load address 0x000017e4
+.data           0x10000000        0x4 load address 0x00001824
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        __DATA_RAM = .
                 0x10000000                        __data_start__ = .
@@ -1540,21 +1540,21 @@ LOAD C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-
  *(.jcr*)
                 0x10000004                        . = ALIGN (0x4)
                 0x10000004                        __data_end__ = .
-                0x000017e8                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00001828                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x00010000                        text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x00000001                        ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
 .tm_clone_table
-                0x10000004        0x0 load address 0x000017e8
+                0x10000004        0x0 load address 0x00001828
  .tm_clone_table
                 0x10000004        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x10000004        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x10000004        0x0 load address 0x000017e8
+.igot.plt       0x10000004        0x0 load address 0x00001828
  .igot.plt      0x10000004        0x0 C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.bss            0x10000004       0x50 load address 0x000017e8
+.bss            0x10000004       0x50 load address 0x00001828
                 0x10000004                        . = ALIGN (0x4)
                 0x10000004                        __START_BSS = .
                 0x10000004                        __bss_start__ = .
@@ -1581,7 +1581,7 @@ LOAD C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-
                 0x10000054                        __bss_end__ = .
                 0x10000054                        __END_BSS = .
 
-.heap           0x10000054      0x404 load address 0x00001838
+.heap           0x10000054      0x404 load address 0x00001878
                 0x10000058                        . = ALIGN (0x8)
  *fill*         0x10000054        0x4 
                 0x10000058                        __end__ = .
@@ -1592,7 +1592,7 @@ LOAD C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-
                 0x10000458                        __HeapLimit = .
                 0x10000458                        __heap_limit = .
 
-.stack          0x10000458      0x800 load address 0x00001c3c
+.stack          0x10000458      0x800 load address 0x00001c7c
                 0x10000458                        . = ALIGN (0x8)
                 0x10000c58                        . = (. + STACK_SIZE)
  *fill*         0x10000458      0x800 

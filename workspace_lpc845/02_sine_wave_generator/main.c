@@ -28,18 +28,20 @@ int main(void)
     // Offset 1.65V
     DAC_SetBufferValue(DAC1, 512);
 
-    // Configuro SysTick para 62.5us
-    SysTick_Config(SystemCoreClock / 16000);
+    // Configuro SysTick para 31.25us
+    SysTick_Config(SystemCoreClock / 32000);
 
     while (1)
         ;
     return 0;
 }
 
-// Tabla 16 Valores de la señal senoidal
-const uint32_t values[16] = {
-    0, 128, 255, 383, 511, 639, 767, 895,
-    767, 639, 511, 383, 255, 128, 0, 0};
+// Tabla 32 Valores de la señal senoidal ajustada
+const uint32_t values[32] = {
+    512, 571, 629, 685, 739, 790, 837, 879,
+    895, 879, 837, 790, 739, 685, 629, 571,
+    512, 453, 395, 339, 285, 234, 187, 145,
+    129, 145, 187, 234, 285, 339, 395, 453};
 
 // Variable volatil para cambiar generar valores de señal senoidal
 volatile uint8_t Wave = 0;
@@ -48,7 +50,7 @@ void SysTick_Handler(void)
 {
     DAC_SetBufferValue(DAC1, values[Wave]);
     Wave++;
-    if (Wave >= 16)
+    if (Wave >= 32)
     {
         Wave = 0; // Reinicio la senoidal
     }
