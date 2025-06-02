@@ -31,8 +31,7 @@ int main(void)
     // Configuro SysTick para 31.25us
     SysTick_Config(SystemCoreClock / 32000);
 
-    while (1)
-        ;
+    while (1);
     return 0;
 }
 
