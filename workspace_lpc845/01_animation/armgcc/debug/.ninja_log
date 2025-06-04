@@ -24,3 +24,5 @@
 358	572	7695591520777620	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/utilities/str/fsl_str.c.obj	6626ca1e93cb71bc
 211	731	7695591519301892	CMakeFiles/new_project.elf.dir/94900b9fa7a42da2beff1ca5c7a5bb2b/sdks/01_animation_sdk/devices/LPC845/utilities/fsl_syscall_stub.c.obj	5bebfda03e270625
 91	234	7697131944652245	new_project.elf	e93ac6dc1927ef36
+101	358	7707427736275246	CMakeFiles/new_project.elf.dir/C_/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/01_animation/main.c.obj	30ff41e7344a1e22
+359	1335	7707427738877382	new_project.elf	e93ac6dc1927ef36
