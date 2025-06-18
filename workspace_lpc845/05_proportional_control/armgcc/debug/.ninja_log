@@ -1,0 +1,26 @@
+# ninja log v6
+18	238	7719583423226570	CMakeFiles/new_project.elf.dir/491c1c9fbd9a2c4c166687999dcdec6c/workspace_lpc845/05_proportional_control/peripherals.c.obj	241209bbf707b80f
+6	254	7719583423226570	CMakeFiles/new_project.elf.dir/32b9bc56fcabf81ff5c14abd870238f9/curso-lse/workspace_lpc845/05_proportional_control/main.c.obj	2f8e14015ef84fe8
+50	323	7719583423664491	CMakeFiles/new_project.elf.dir/491c1c9fbd9a2c4c166687999dcdec6c/workspace_lpc845/05_proportional_control/clock_config.c.obj	bd9459eff7c12d8f
+92	346	7719583424084754	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/05_proportional_control_sdk/devices/LPC845/system_LPC845.c.obj	ff66fe32b21d808f
+25	384	7719583423413958	CMakeFiles/new_project.elf.dir/32b9bc56fcabf81ff5c14abd870238f9/curso-lse/workspace_lpc845/05_proportional_control/pin_mux.c.obj	667e6079c7be5470
+61	421	7719583423773545	CMakeFiles/new_project.elf.dir/491c1c9fbd9a2c4c166687999dcdec6c/workspace_lpc845/05_proportional_control/hardware_init.c.obj	2cc4f21c9b335756
+83	454	7719583423976948	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/gcc/startup_LPC845.S.obj	cd700d0b7288573e
+71	504	7719583423823287	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/components/uart/fsl_adapter_miniusart.c.obj	76cb58082f3b5453
+136	544	7719583424522110	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/drivers/fsl_common_arm.c.obj	fafcb44c52ee932a
+113	585	7719583424292167	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/drivers/fsl_common.c.obj	e3447f28c7d570ca
+158	590	7719583424747906	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/05_proportional_control_sdk/devices/LPC845/drivers/fsl_gpio.c.obj	5f931b3f45af0fa6
+146	597	7719583424607421	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/drivers/fsl_inputmux.c.obj	72805bcb798b395e
+101	636	7719583424175088	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/05_proportional_control_sdk/devices/LPC845/drivers/fsl_clock.c.obj	53d6ef9e42134afa
+239	672	7719583425560959	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/drivers/fsl_syscon.c.obj	91a018c3ebe2f585
+32	675	7719583423413958	CMakeFiles/new_project.elf.dir/32b9bc56fcabf81ff5c14abd870238f9/curso-lse/workspace_lpc845/05_proportional_control/board.c.obj	3c74d4bc107c338
+256	679	7719583425718678	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/utilities/fsl_syscall_stub.c.obj	8f8798a756186602
+221	681	7719583425375146	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/05_proportional_control_sdk/devices/LPC845/drivers/fsl_reset.c.obj	f253141528e16b68
+228	683	7719583425431995	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/05_proportional_control_sdk/devices/LPC845/drivers/fsl_swm.c.obj	72bbb15831bb01a0
+323	683	7719583426380865	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/utilities/fsl_sbrk.c.obj	11b5ceed5ca6c8e4
+203	684	7719583425195203	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/05_proportional_control_sdk/devices/LPC845/drivers/fsl_power.c.obj	404fe560a61c2f7
+352	685	7719583426686878	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj	4196893043122833
+183	687	7719583424987680	CMakeFiles/new_project.elf.dir/f0397750622087b14d4307cf41ad30a4/05_proportional_control_sdk/devices/LPC845/drivers/fsl_usart.c.obj	6c812a57eca7370c
+384	712	7719583426989029	CMakeFiles/new_project.elf.dir/6df1b99bc4f5fdd778224bece13ee5b3/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj	91e965d313ffe399
+421	757	7719583427365316	CMakeFiles/new_project.elf.dir/10cfb9eaf1e25e04746155bfd9d8a7b1/devices/LPC845/utilities/str/fsl_str.c.obj	786e65aa726f7ba8
+757	2051	7719583430717846	new_project.elf	1399e78200865677

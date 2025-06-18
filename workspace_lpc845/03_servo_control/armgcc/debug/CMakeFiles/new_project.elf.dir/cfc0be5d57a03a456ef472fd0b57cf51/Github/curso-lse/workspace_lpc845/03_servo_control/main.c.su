@@ -1,3 +1,10 @@
-c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_gpio.h:153:20:GPIO_PinWrite	24	static
-C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/03_servo_control/main.c:38:6:display_digit	32	static
-C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/03_servo_control/main.c:58:5:main	32	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/CMSIS/Core/Include/core_cm0plus.h:757:22:__NVIC_EnableIRQ	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_clock.h:558:20:CLOCK_EnableClock	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_clock.h:569:20:CLOCK_DisableClock	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_clock.h:601:24:CLOCK_GetClkDivider	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_adc.h:472:20:ADC_EnableConvSeqA	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_adc.h:497:20:ADC_DoSoftwareTriggerConvSeqA	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_adc.h:727:20:ADC_EnableInterrupts	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_power.h:153:20:POWER_DisablePD	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/devices/LPC845/drivers/fsl_sctimer.h:503:20:SCTIMER_StartTimer	16	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/03_servo_control/main.c:19:5:main	96	static

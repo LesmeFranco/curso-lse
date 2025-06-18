@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "new_project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "new_project.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_project.elf-debug-bbc8ca530d6bd2c09597.json",
+					"name" : "new_project.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/03_servo_control/armgcc/debug",
+		"source" : "C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/03_servo_control/armgcc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

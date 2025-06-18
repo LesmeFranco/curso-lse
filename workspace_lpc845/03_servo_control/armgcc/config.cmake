@@ -35,3 +35,6 @@ set(CONFIG_DEVICE_ID LPC845)
 set(CONFIG_FPU NO_FPU)
 set(CONFIG_DSP NO_DSP)
 set(CONFIG_CORE_ID core0)
+
+set(CONFIG_USE_driver_lpc_adc true)
+set(CONFIG_USE_driver_sctimer true)

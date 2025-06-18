@@ -205,8 +205,8 @@ CMAKE_STRIP:FILEPATH=C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/tools/cmake_toolchain_files/armgcc.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/workspace_lpc845/sdks/03_servo_control_sdk/tools/cmake_toolchain_files/armgcc.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -257,7 +257,7 @@ CMAKE_ASM_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ASM_FLAGS_DEBUG
 CMAKE_ASM_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //asm compiler flags debug
-CMAKE_ASM_FLAGS_DEBUG:INTERNAL= -g -g
+CMAKE_ASM_FLAGS_DEBUG:INTERNAL= -g -g -g
 //ADVANCED property for variable: CMAKE_ASM_FLAGS_MINSIZEREL
 CMAKE_ASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ASM_FLAGS_RELEASE
@@ -289,13 +289,13 @@ CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
 CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //cxx compiler flags debug
-CMAKE_CXX_FLAGS_DEBUG:INTERNAL= -O0 -g -O0 -g
+CMAKE_CXX_FLAGS_DEBUG:INTERNAL= -O0 -g -O0 -g -O0 -g
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
 CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //cxx compiler flags release
-CMAKE_CXX_FLAGS_RELEASE:INTERNAL=' -O3  -O3 '
+CMAKE_CXX_FLAGS_RELEASE:INTERNAL=' -O3  -O3  -O3 '
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
@@ -307,13 +307,13 @@ CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
 CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //c compiler flags debug
-CMAKE_C_FLAGS_DEBUG:INTERNAL= -O0 -g -O0 -g
+CMAKE_C_FLAGS_DEBUG:INTERNAL= -O0 -g -O0 -g -O0 -g
 //ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
 CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //c compiler flags release
-CMAKE_C_FLAGS_RELEASE:INTERNAL=' -O3  -O3 '
+CMAKE_C_FLAGS_RELEASE:INTERNAL=' -O3  -O3  -O3 '
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
@@ -373,12 +373,8 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //objcopy tool
 CMAKE_OBJCOPY:INTERNAL=C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-objcopy
-//ADVANCED property for variable: CMAKE_OBJDUMP
-CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //objdump tool
 CMAKE_OBJDUMP:INTERNAL=C:/Users/ferna/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-objdump
 //Platform information initialized
