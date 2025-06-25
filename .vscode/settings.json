@@ -1,4 +1,4 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}/Users/albornozthiago/.platformio/packages/framework-espidf",
-    "idf.pythonInstallPath": "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3"
+    "idf.pythonInstallPath": "C:\\Users\\ferna\\.espressif\\tools\\idf-python\\3.11.2\\python.exe"
 }
