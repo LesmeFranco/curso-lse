@@ -1,6 +1,3 @@
-#ifndef _WRAPPERS_H_
-#define _WRAPPERS_H_
-
 #include "board.h"
 #include "fsl_power.h"
 #include "fsl_swm.h"
@@ -9,9 +6,10 @@
 #include "fsl_sctimer.h"
 #include "fsl_i2c.h"
 #include "fsl_pint.h"
-#include "fsl_capt.h"
-
 #include "labels.h"
+
+#ifndef _WRAPPERS_H_
+#define _WRAPPERS_H_
 
 // Estructura para los GPIO
 typedef struct
@@ -36,8 +34,6 @@ void wrapper_pwm_update_rled(int16_t duty);
 void wrapper_i2c_init(void);
 void wrapper_bh1750_init(void);
 float wrapper_bh1750_read(void);
-void wrapper_touch_init(void);
-bool wrapper_touch_is_touched(void);
 
 // Funciones inline
 
