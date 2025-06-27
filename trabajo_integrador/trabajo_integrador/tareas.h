@@ -6,8 +6,8 @@
 #include "wrappers.h"
 #include "isr.h"
 
-#ifndef _APP_TASKS_H_
-#define _APP_TASKS_H_
+#ifndef _APP_TASKS_H
+#define _APP_TASKS_H
 
 // Prioridad de las tareas
 #define tskINIT_PRIORITY (tskIDLE_PRIORITY + 3UL) // UL (unsigned long) para evitar warnings
@@ -42,5 +42,25 @@ void tsk_BH1750(void *params);
 void tsk_LEDS(void *params);
 void tsk_buzzer(void *params);
 void tsk_counter(void *params);
+void tsk_counter_btns(void *params);
 void tsk_pwm(void *params);
-void tsk_terminal(void *params);
+// void tsk_terminal(void *params);
+
+/**
+ * @brief Wrapper que verifica el estado de un pulsador con pull-up
+ * aplicando un antirebote
+ * @param btn estructura al GPIO del pulsador
+ */
+static inline bool wrapper_btn_get_with_debouncing_with_pull_up(gpio_t btn) {
+	//	Pregunto si se precionó el pulsador
+	if(!wrapper_btn_get(btn)) {
+		// Antirebote
+		vTaskDelay(pdMS_TO_TICKS(20));
+		if(!wrapper_btn_get(btn)) {
+			return true;
+		}
+	}
+	return false;
+}
+
+#endif

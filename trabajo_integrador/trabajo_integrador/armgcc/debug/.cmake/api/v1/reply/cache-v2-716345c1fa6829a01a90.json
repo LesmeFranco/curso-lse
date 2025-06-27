@@ -46,22 +46,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_ASM_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_ASM_COMPILER_AR",
 			"properties" : 
 			[
@@ -135,7 +119,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -g -g"
+			"value" : " -g -g -g -g -g -g -g -g -g -g -g"
 		},
 		{
 			"name" : "CMAKE_ASM_FLAGS_MINSIZEREL",
@@ -282,22 +266,6 @@
 			"value" : "C:/Program Files/CMake/bin/ctest.exe"
 		},
 		{
-			"name" : "CMAKE_CXX_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
 			"properties" : 
 			[
@@ -359,7 +327,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O0 -g -O0 -g"
+			"value" : " -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -391,7 +359,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O3  -O3 "
+			"value" : " -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3 "
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
@@ -408,22 +376,6 @@
 			],
 			"type" : "STRING",
 			"value" : "-O2 -g -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -487,7 +439,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O0 -g -O0 -g"
+			"value" : " -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -519,7 +471,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O3  -O3 "
+			"value" : " -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3  -O3 "
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -947,16 +899,12 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
 			"properties" : 
 			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "objcopy tool"
@@ -969,10 +917,6 @@
 			"name" : "CMAKE_OBJDUMP",
 			"properties" : 
 			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "objdump tool"
@@ -1315,11 +1259,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk/tools/cmake_toolchain_files/armgcc.cmake"
+			"type" : "UNINITIALIZED",
+			"value" : "c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk/tools/cmake_toolchain_files/armgcc.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1396,6 +1340,42 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : "c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk"
+		},
+		{
+			"name" : "freertos_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/debug/freertos"
+		},
+		{
+			"name" : "freertos_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "freertos_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/freertos"
 		},
 		{
 			"name" : "new_project_BINARY_DIR",

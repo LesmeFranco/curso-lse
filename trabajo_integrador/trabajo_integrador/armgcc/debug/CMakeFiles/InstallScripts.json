@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/debug/cmake_install.cmake"
+		"C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/debug/cmake_install.cmake",
+		"C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/debug/freertos/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

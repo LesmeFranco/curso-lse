@@ -3,10 +3,10 @@
 // -------
 // Colas |
 // -------
-xQueueHandle_t queue_adc;              // Cola para datos del ADC
-xQueueHandle_t queue_display;          // Cola para datos del display
-xQueueHandle_t queue_display_variable; // Cola para variable a mostrar en el display
-xQueueHandle_t queue_lux;              // cola para datos de lux
+QueueHandle_t queue_adc;              // Cola para datos del ADC
+QueueHandle_t queue_display;          // Cola para datos del display
+QueueHandle_t queue_display_variable; // Cola para variable a mostrar en el display
+QueueHandle_t queue_lux;              // cola para datos de lux
 
 // ----------
 // Semaforo |
@@ -14,6 +14,7 @@ xQueueHandle_t queue_lux;              // cola para datos de lux
 xSemaphoreHandle semphr_buzz;    // Interrupción del Sensor IR
 xSemaphoreHandle semphr_usr;     // Boton de USER
 xSemaphoreHandle semphr_counter; // Semáforo para contador
+xSemaphoreHandle semphr_mutex;   // Semáforo mutex para el display
 
 // Handler para display (Puntero o referencia para identificar y controlar una tarea específica después de haberla creado)
 TaskHandle_t DisplayHandler;
@@ -23,7 +24,7 @@ TaskHandle_t DisplayHandler;
 // --------------------------
 
 // Tarea 0: Inicialización de periféricos y recursos
-void vTarea1(void *params)
+void tsk_init(void *params)
 {
     // Inicializo los semaforos
     semphr_buzz = xSemaphoreCreateBinary();
@@ -31,7 +32,7 @@ void vTarea1(void *params)
 
     // Incializo colas
     queue_adc = xQueueCreate(1, sizeof(adc_data_t));
-    queue_display = xQueueCreate(1, sizeof(display_t));
+    queue_display = xQueueCreate(1, sizeof(uint16_t));
     queue_display_variable = xQueueCreate(1, sizeof(display_variable_t));
     queue_lux = xQueueCreate(1, sizeof(uint16_t));
 
@@ -134,7 +135,7 @@ void tsk_control(void *params)
 void tsk_display_write(void *params)
 {
     // Variable con el dato para escribir
-    uint8_t data;
+    uint16_t data;
 
     while (1)
     {
@@ -232,7 +233,7 @@ void tsk_buzzer(void *params)
 // ------------------------------------------
 // Tarea 9: Tarea que decrementa un contador
 // ------------------------------------------
-void task_counter(void *params)
+void tsk_counter(void *params)
 {
     while (1)
     {
@@ -245,13 +246,11 @@ void task_counter(void *params)
 // ------------------------------------------
 // Tarea 10: Tarea que controla el contador
 // ------------------------------------------
-void task_counter_btns(void *params)
+void tsk_counter_btns(void *params)
 {
 
     while (1)
     {
-        // Intenta tomar el semáforo
-        xSemaphoreTake(semphr_touch, portMAX_DELAY);
         // Toma el mutex para bloquear la otra tarea que escribe el display
         xSemaphoreTake(semphr_mutex, portMAX_DELAY);
         // Verifica qué pulsador se presionó

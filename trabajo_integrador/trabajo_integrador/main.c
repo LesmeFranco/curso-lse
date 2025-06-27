@@ -21,7 +21,7 @@ int main(void)
     xTaskCreate(tsk_LEDS, "LEDS", tskLEDS_STACK, NULL, tskLEDS_PRIORITY, NULL);
     xTaskCreate(tsk_display_write, "Display", tskDisplay_STACK, NULL, tskDisplay_PRIORITY, NULL);
     xTaskCreate(tsk_buzzer, "Buzzer", tskBuzzer_STACK, NULL, tskBuzzer_PRIORITY, NULL);
-    xTaskCreate(tsk_terminal, "Terminal", tskTerminal_STACK, NULL, tskTerminal_PRIORITY, NULL);
+    // xTaskCreate(tsk_terminal, "Terminal", tskTerminal_STACK, NULL, tskTerminal_PRIORITY, NULL);
     xTaskCreate(tsk_pwm, "pwm", tskTerminal_STACK, NULL, tskTerminal_PRIORITY, NULL);
     xTaskCreate(tsk_display_change, "boton", tskTerminal_STACK, NULL, tskTerminal_PRIORITY, NULL);
     xTaskCreate(tsk_counter, "Contador", tskTerminal_STACK, NULL, tskTerminal_PRIORITY, NULL);

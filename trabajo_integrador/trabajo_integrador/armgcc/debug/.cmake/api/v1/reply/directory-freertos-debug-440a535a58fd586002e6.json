@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "freertos",
+		"source" : "C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/freertos"
+	}
+}

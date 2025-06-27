@@ -1,0 +1,5 @@
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_adc.h:770:24:ADC_GetStatusFlags	16	static
+c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_adc.h:781:20:ADC_ClearStatusFlags	16	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/isr.c:7:6:cny70_callback	24	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/isr.c:22:6:usr_callback	24	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/isr.c:36:6:ADC0_SEQA_IRQHandler	56	static
