@@ -10,7 +10,7 @@ C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrad
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.h:96:20:wrapper_output_toggle	32	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.h:105:20:wrapper_display_off	8	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.h:116:20:wrapper_display_on	24	static
-C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/tareas.h:54:20:wrapper_btn_get_with_debouncing_with_pull_up	24	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/tareas.h:64:20:wrapper_btn_get_with_debouncing_with_pull_up	24	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/tareas.c:27:6:tsk_init	96	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/tareas.c:71:6:tsk_adc	16	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/tareas.c:86:6:tsk_display_change	32	static

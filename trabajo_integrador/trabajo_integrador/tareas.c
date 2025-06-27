@@ -248,7 +248,6 @@ void tsk_counter(void *params)
 // ------------------------------------------
 void tsk_counter_btns(void *params)
 {
-
     while (1)
     {
         // Toma el mutex para bloquear la otra tarea que escribe el display
