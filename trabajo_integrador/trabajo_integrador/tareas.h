@@ -51,8 +51,8 @@ void tsk_display_write(void *params);
 void tsk_BH1750(void *params);
 void tsk_LEDS(void *params);
 void tsk_buzzer(void *params);
-void tsk_counter(void *params);
-void tsk_counter_btns(void *params);
+// void tsk_counter(void *params);
+// void tsk_counter_btns(void *params);
 void tsk_pwm(void *params);
 // void tsk_terminal(void *params);
 

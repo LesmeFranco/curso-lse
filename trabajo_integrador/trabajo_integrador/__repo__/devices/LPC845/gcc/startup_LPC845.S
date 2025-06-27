@@ -103,7 +103,7 @@ __Vectors:
     .weak    Reset_Handler
     .type    Reset_Handler, %function
 Reset_Handler:
-    cpsid   i               /* Mask interrupts */
+     cpsid   i               /* Mask interrupts */
 #ifndef __NO_SYSTEM_INIT
     ldr   r0,=SystemInit
     blx   r0

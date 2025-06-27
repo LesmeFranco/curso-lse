@@ -120,10 +120,7 @@ void tsk_control(void *params)
         // Veo cual tengo que mostrar
         val = (variable == kDISPLAY_TEMP) ? data.temp_raw : data.ref_raw;
         val = 30 * val / 4095;
-        // Escribo en la cola del display si puedo tomar el mutex
-        xSemaphoreTake(semphr_mutex, portMAX_DELAY);
         xQueueOverwrite(queue_display, &val);
-        xSemaphoreGive(semphr_mutex);
 
         vTaskDelay(pdMS_TO_TICKS(50));
     }
@@ -227,48 +224,5 @@ void tsk_buzzer(void *params)
         xSemaphoreTake(semphr_buzz, portMAX_DELAY);
         // Buzzer activo
         wrapper_output_toggle((gpio_t){BUZZER});
-    }
-}
-
-// ------------------------------------------
-// Tarea 9: Tarea que decrementa un contador
-// ------------------------------------------
-void tsk_counter(void *params)
-{
-    while (1)
-    {
-        // Decrementa la cuenta cada un segundo
-        xSemaphoreTake(semphr_counter, 0);
-        vTaskDelay(pdMS_TO_TICKS(1000));
-    }
-}
-
-// ------------------------------------------
-// Tarea 10: Tarea que controla el contador
-// ------------------------------------------
-void tsk_counter_btns(void *params)
-{
-    while (1)
-    {
-        // Toma el mutex para bloquear la otra tarea que escribe el display
-        xSemaphoreTake(semphr_mutex, portMAX_DELAY);
-        // Verifica qué pulsador se presionó
-        if (wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S1_BTN}))
-        {
-            // Decrementa la cuenta del semáforo
-            xSemaphoreTake(semphr_counter, 0);
-        }
-        else if (wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S2_BTN}))
-        {
-            // Incrementa la cuenta del semáforo
-            xSemaphoreGive(semphr_counter);
-        }
-        // Escribe en el display
-        uint16_t data = uxSemaphoreGetCount(semphr_counter);
-        xQueueOverwrite(queue_display, &data);
-        // Demora chica para evitar que detecte muy rápido que se presionó
-        vTaskDelay(pdMS_TO_TICKS(30));
-        // Devuelve el mutex
-        xSemaphoreGive(semphr_mutex);
     }
 }
