@@ -1,0 +1,22 @@
+# ninja log v6
+12	157	7727278670345175	CMakeFiles/new_project.elf.dir/32b9bc56fcabf81ff5c14abd870238f9/curso-lse/trabajo_integrador/trabajo_integrador/peripherals.c.obj	dad058157845427f
+44	195	7727278670667814	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/gcc/startup_LPC845.S.obj	e2d0d1f0c376cad4
+49	300	7727278670715819	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/system_LPC845.c.obj	b483357af4ba1055
+300	405	7727278673182257	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/utilities/fsl_sbrk.c.obj	b84efdf44e5453b5
+23	765	7727278670459762	CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/trabajo_integrador/trabajo_integrador/board.c.obj	80f5eb5a24f3620d
+39	800	7727278670607551	CMakeFiles/new_project.elf.dir/be9e862433bf5041efa857a9c90e8240/trabajo_integrador_sdk/components/uart/fsl_adapter_miniusart.c.obj	7abbfb6e303bf35b
+93	803	7727278671141427	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_swm.c.obj	948e8e031958e266
+88	830	7727278671106370	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_reset.c.obj	d88e620215c547a7
+69	831	7727278670913119	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_inputmux.c.obj	d402b7d8d2d85df6
+53	833	7727278670758668	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_clock.c.obj	c69939c481d0e47a
+19	842	7727278670389510	CMakeFiles/new_project.elf.dir/cfc0be5d57a03a456ef472fd0b57cf51/Github/curso-lse/trabajo_integrador/trabajo_integrador/pin_mux.c.obj	d444121eaa2ff781
+65	843	7727278670873005	CMakeFiles/new_project.elf.dir/be9e862433bf5041efa857a9c90e8240/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj	b4e1f25b6ca69009
+158	848	7727278671830026	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_syscon.c.obj	36f87ee4e3ecef91
+28	849	7727278670508216	CMakeFiles/new_project.elf.dir/32b9bc56fcabf81ff5c14abd870238f9/curso-lse/trabajo_integrador/trabajo_integrador/clock_config.c.obj	d2ea41a19e07bc4f
+74	852	7727278670953241	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_gpio.c.obj	a890942f989423a5
+406	852	7727278674237464	CMakeFiles/new_project.elf.dir/b7561fe964618e7d963c3704882cbf36/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj	913601007254a042
+34	857	7727278670566943	CMakeFiles/new_project.elf.dir/32b9bc56fcabf81ff5c14abd870238f9/curso-lse/trabajo_integrador/trabajo_integrador/hardware_init.c.obj	fd6ccaa5b3295b53
+195	858	7727278672159509	CMakeFiles/new_project.elf.dir/b7561fe964618e7d963c3704882cbf36/devices/LPC845/utilities/fsl_syscall_stub.c.obj	e5aedf2f7bf96f99
+79	863	7727278671013434	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_usart.c.obj	26cbf43f13772f84
+83	863	7727278671053558	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_power.c.obj	67c7b7d72e9b8fd3
+59	864	7727278670809988	CMakeFiles/new_project.elf.dir/a30e4a380bddc137d657d01a6d030b7e/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_common.c.obj	bce0b40d45aee74b
