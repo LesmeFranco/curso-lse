@@ -222,7 +222,10 @@ void tsk_buzzer(void *params)
     while (1)
     {
         xSemaphoreTake(semphr_buzz, portMAX_DELAY);
-        // Buzzer activo
-        wrapper_output_toggle((gpio_t){BUZZER});
+        // Enciende el buzzer
+        GPIO_PinWrite(GPIO_DESTRUCT((gpio_t){BUZZER}), 1);
+        vTaskDelay(pdMS_TO_TICKS(200)); // 200 ms encendido
+        // Apaga el buzzer
+        GPIO_PinWrite(GPIO_DESTRUCT((gpio_t){BUZZER}), 0);
     }
 }
