@@ -9,7 +9,6 @@
 
 int main(void)
 {
-
     //  Clock a 30MHz
     BOARD_BootClockFRO30M();
 
@@ -23,6 +22,7 @@ int main(void)
     xTaskCreate(tsk_pwm, "pwm", tskPwm_STACK, NULL, tskPwm_PRIORITY, NULL);
     xTaskCreate(tsk_display_change, "boton", tskDisplayChange_STACK, NULL, tskDisplayChange_PRIORITY, NULL);
     xTaskCreate(tsk_control, "Counter", tskControl_STACK, NULL, tskControl_PRIORITY, NULL);
+    xTaskCreate(tsk_console_monitor, "Console", tsk_console_monitor_STACK, NULL, tsk_console_monitor_PRIORITY, NULL);
 
     vTaskStartScheduler();
 }

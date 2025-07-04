@@ -20,6 +20,7 @@
 #define tskIntensity_PRIORITY (tskIDLE_PRIORITY + 1UL)	  // Tarea de RV22
 #define tskBuzzer_PRIORITY (tskIDLE_PRIORITY + 2UL)		  // Tarea del Sensor IR
 #define tskPwm_PRIORITY (tskIDLE_PRIORITY + 1UL)
+#define tsk_console_monitor_PRIORITY (tskIDLE_PRIORITY + 1UL) // Tarea de consola
 
 // Stack size de las tareas (Tamaño de la pila de cada tarea)
 #define tskINIT_STACK (3 * configMINIMAL_STACK_SIZE)
@@ -32,6 +33,7 @@
 #define tskIntensity_STACK (configMINIMAL_STACK_SIZE)
 #define tskBuzzer_STACK (configMINIMAL_STACK_SIZE)
 #define tskPwm_STACK (3 * configMINIMAL_STACK_SIZE / 2)
+#define tsk_console_monitor_STACK (2 * configMINIMAL_STACK_SIZE)
 
 // Handler para la tarea de display write
 extern TaskHandle_t handle_display;
@@ -46,6 +48,7 @@ void tsk_BH1750(void *params);
 void tsk_LEDS(void *params);
 void tsk_buzzer(void *params);
 void tsk_pwm(void *params);
+void tsk_console_monitor(void *params);
 
 /**
  * @brief Wrapper que verifica el estado de un pulsador con pull-up

@@ -159,14 +159,24 @@ void tsk_display_write(void *params)
 void tsk_BH1750(void *params)
 {
     // Valor de Intensidad de luz
-    uint16_t lux = 0;
+    float lux = 0;
+    float lux_pct = 0;
 
     while (1)
     {
         // Leo el valor de lux del sensor BH1750
         lux = wrapper_bh1750_read();
-        // Muestro por consola
-        xQueueOverwrite(queue_lux, &lux);
+        if (lux > 30000)
+            lux = 30000;
+
+        // Calculo porcentaje.
+        lux_pct = (lux / 30000.0f) * 100.0f;
+
+        // Envio el valor a la cola.
+        xQueueOverwrite(queue_lux, &lux_pct);
+
+        // Delay de 1 segundo para mediciones.
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 
@@ -227,5 +237,30 @@ void tsk_buzzer(void *params)
         vTaskDelay(pdMS_TO_TICKS(200)); // 200 ms encendido
         // Apaga el buzzer
         GPIO_PinWrite(GPIO_DESTRUCT((gpio_t){BUZZER}), 0);
+    }
+}
+
+// --------------------------
+// Tarea 9: Monitor de consola
+// --------------------------
+void tsk_console_monitor(void *params)
+{
+    TickType_t xLastWakeTime = xTaskGetTickCount();
+    float lux_pct = 0;
+    uint32_t tiempo_ms = 0;
+
+    while (1)
+    {
+        // Intento leer el valor de lux
+        xQueuePeek(queue_lux, &lux_pct, 0);
+
+        // Calculo el tiempo en ms
+        tiempo_ms = (xTaskGetTickCount() - xLastWakeTime) * portTICK_PERIOD_MS;
+
+        // Imprimo por consola los valores
+        printf("Tiempo: %lu ms | Lux: %.1f%%\r\n", tiempo_ms, lux_pct);
+
+        // Delay de 1 segundo
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
