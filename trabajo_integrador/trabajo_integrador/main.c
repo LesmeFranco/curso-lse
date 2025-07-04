@@ -20,12 +20,9 @@ int main(void)
     xTaskCreate(tsk_LEDS, "LEDS", tskLEDS_STACK, NULL, tskLEDS_PRIORITY, NULL);
     xTaskCreate(tsk_display_write, "Display", tskDisplayWrite_STACK, NULL, tskDisplayWrite_PRIORITY, NULL);
     xTaskCreate(tsk_buzzer, "Buzzer", tskBuzzer_STACK, NULL, tskBuzzer_PRIORITY, NULL);
-    // xTaskCreate(tsk_terminal, "Terminal", tskTerminal_STACK, NULL, tskTerminal_PRIORITY, NULL);
     xTaskCreate(tsk_pwm, "pwm", tskPwm_STACK, NULL, tskPwm_PRIORITY, NULL);
     xTaskCreate(tsk_display_change, "boton", tskDisplayChange_STACK, NULL, tskDisplayChange_PRIORITY, NULL);
-    // xTaskCreate(tsk_counter, "Contador", tskCounter_STACK, NULL, tskCounter_PRIORITY, NULL);
     xTaskCreate(tsk_control, "Counter", tskControl_STACK, NULL, tskControl_PRIORITY, NULL);
-    // xTaskCreate(tsk_counter_btns, "Counter Btns", tskCOUNTER_BTNS_STACK, NULL, tskCOUNTER_BTNS_PRIORITY, NULL);
 
     vTaskStartScheduler();
 }
