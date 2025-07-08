@@ -11,6 +11,7 @@ int main(void)
 {
     //  Clock a 30MHz
     BOARD_BootClockFRO30M();
+    BOARD_InitDebugConsole();
 
     // Creo tareas
     xTaskCreate(tsk_init, "Init", tskINIT_STACK, NULL, tskINIT_PRIORITY, NULL);

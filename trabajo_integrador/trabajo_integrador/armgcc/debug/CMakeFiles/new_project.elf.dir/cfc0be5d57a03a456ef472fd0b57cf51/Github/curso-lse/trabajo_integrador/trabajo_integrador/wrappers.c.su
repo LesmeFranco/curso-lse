@@ -10,7 +10,7 @@ c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrad
 c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_adc.h:727:20:ADC_EnableInterrupts	16	static
 c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_sctimer.h:503:20:SCTIMER_StartTimer	16	static
 c:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/sdks/trabajo_integrador_sdk/devices/LPC845/drivers/fsl_i2c.h:620:24:I2C_MasterRepeatedStart	16	static
-C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.h:86:24:wrapper_gpio_get_pin	24	static
+C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.h:87:24:wrapper_gpio_get_pin	24	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.c:9:6:wrapper_adc_init	48	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.c:56:6:wrapper_btn_init	88	static
 C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/wrappers.c:72:6:wrapper_gpio_enable_irq	32	static

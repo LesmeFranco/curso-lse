@@ -6,6 +6,7 @@
 #include "fsl_sctimer.h"
 #include "fsl_i2c.h"
 #include "fsl_pint.h"
+#include "fsl_debug_console.h"
 #include "labels.h"
 
 #ifndef _WRAPPERS_H_
