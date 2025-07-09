@@ -20,6 +20,7 @@
 #define SEG_E GPIO, 0, 0
 #define SEG_F GPIO, 0, 13
 #define SEG_G GPIO, 0, 15
+#define SEG_DP GPIO, 0, 1
 #define COM_1 GPIO, 0, 8
 #define COM_2 GPIO, 0, 9
 
@@ -63,5 +64,11 @@ typedef enum
 	kDISPLAY_TEMP, // Se muestra la temperatura
 	kDISPLAY_REF   // Se muestra la referencia
 } display_variable_t;
+
+typedef struct
+{
+	uint16_t value;
+	bool show_dp;
+} display_data_t;
 
 #endif
