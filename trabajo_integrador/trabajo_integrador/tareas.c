@@ -210,7 +210,7 @@ void tsk_BH1750(void *params)
 void tsk_led_azul(void *params)
 {
     adc_data_t adc_data;
-    uint16_t duty_led = 0;
+    int16_t duty_led = 0;
 
     while (1)
     {

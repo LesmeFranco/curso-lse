@@ -547,7 +547,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/../mcux_config.h     -DDEBUG     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -g     -O0     --specs=nano.specs     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=0 -DSDK_USE_SYSCALL_STUB=0 "
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/../mcux_config.h     -DDEBUG     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -g     -O0     --specs=nano.specs     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=1 "
 				}
 			],
 			"includes" : 
@@ -722,7 +722,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/../mcux_config.h     -DDEBUG     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -g     -O0     --specs=nano.specs     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=0 -DSDK_USE_SYSCALL_STUB=0",
+				"fragment" : "-fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/ferna/Documentos/Escuela/Proyecto_7mo/Github/curso-lse/trabajo_integrador/trabajo_integrador/armgcc/../mcux_config.h     -DDEBUG     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -g     -O0     --specs=nano.specs     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=1",
 				"role" : "flags"
 			},
 			{
@@ -741,7 +741,7 @@
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "-lgcc -lc -lm -lcr_newlib_semihost",
+				"fragment" : "-lgcc -lc -lm -lcr_newlib_nohost",
 				"role" : "libraries"
 			},
 			{

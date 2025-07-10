@@ -2,6 +2,9 @@
 
 // Variable privada para registrar el evento del PWM
 static uint32_t pwm_led_event = 0;
+static uint32_t pwm_bled_event = 0;
+static uint32_t pwm_rled_event = 0;
+
 /**
  * @brief Wrapper para inicializacion del ADC
  */
@@ -129,6 +132,7 @@ void wrapper_pwm_init(void)
     CLOCK_EnableClock(kCLOCK_Swm);
     SWM_SetMovablePinSelect(SWM0, kSWM_SCT_OUT0, kSWM_PortPin_P1_0 + wrapper_gpio_get_pin((gpio_t){BLED}));
     SWM_SetMovablePinSelect(SWM0, kSWM_SCT_OUT1, kSWM_PortPin_P1_0 + wrapper_gpio_get_pin((gpio_t){RLED}));
+    SWM_SetMovablePinSelect(SWM0, kSWM_SCT_OUT4, kSWM_PortPin_P0_0 + wrapper_gpio_get_pin((gpio_t){LED}));
     CLOCK_DisableClock(kCLOCK_Swm);
 
     // Eligo el clock para el Timer
@@ -139,20 +143,20 @@ void wrapper_pwm_init(void)
     SCTIMER_Init(SCT0, &sctimer_config);
 
     // Configuro el PWM para el LED azul
-    sctimer_pwm_signal_param_t led_pwm_config = {
+    sctimer_pwm_signal_param_t bled_pwm_config = {
         .output = kSCTIMER_Out_0,  // Salida del Timer
         .level = kSCTIMER_LowTrue, // Logica negativa
         .dutyCyclePercent = 0      // Apagado
     };
 
-    // Inicializo el PWM
+    // Inicializo el PWM del LED azul Tricolor
     SCTIMER_SetupPwm(
         SCT0,
-        &led_pwm_config,
+        &bled_pwm_config,
         kSCTIMER_CenterAlignedPwm,
         1000,
         sctimer_clock,
-        &pwm_led_event);
+        &pwm_bled_event);
 
     // Configuro el PWM
     sctimer_pwm_signal_param_t rled_pwm_config = {
@@ -161,7 +165,31 @@ void wrapper_pwm_init(void)
         .dutyCyclePercent = 0      // Apagado
     };
 
-    // Inicializo el Timer
+    // Inicializo el PWM del LED rojo Tricolor
+    SCTIMER_SetupPwm(
+        SCT0,
+        &rled_pwm_config,
+        kSCTIMER_CenterAlignedPwm,
+        1000,
+        sctimer_clock,
+        &pwm_rled_event);
+
+    // Configuro el PWM del LED adicional
+    sctimer_pwm_signal_param_t led_pwm_config = {
+        .output = kSCTIMER_Out_4,  // Salida del Timer
+        .level = kSCTIMER_LowTrue, // Logica negativa
+        .dutyCyclePercent = 0      // Apagado
+    };
+
+    // Inicializo el PWM del LED adicional
+    SCTIMER_SetupPwm(
+        SCT0,
+        &led_pwm_config,
+        kSCTIMER_CenterAlignedPwm,
+        1000,
+        sctimer_clock,
+        &pwm_led_event);
+
     SCTIMER_StartTimer(SCT0, kSCTIMER_Counter_U);
 }
 
@@ -173,31 +201,26 @@ void wrapper_pwm_init(void)
  */
 static void wrapper_pwm_update_led(sctimer_out_t out, int16_t duty, uint32_t event)
 {
-    // Verifico que no se haya excedido de los limites
     if (duty < 0)
-    {
         duty = 0;
-    }
     else if (duty > 100)
-    {
         duty = 100;
-    }
-    // Actualizo el duty
     SCTIMER_UpdatePwmDutycycle(SCT0, out, duty, event);
 }
 
-/**
- * @brief Wrapper para actualizar el valor de duty del PWM del LED azul
- */
+void wrapper_pwm_update_bled(int16_t duty)
+{
+    wrapper_pwm_update_led(kSCTIMER_Out_0, duty, pwm_bled_event);
+}
+
+void wrapper_pwm_update_rled(int16_t duty)
+{
+    wrapper_pwm_update_led(kSCTIMER_Out_1, duty, pwm_rled_event);
+}
+
 void wrapper_pwm_update_led_azul(int16_t duty)
 {
-    if (duty < 0)
-        duty = 0;
-    if (duty > 100)
-        duty = 100;
-
-    // Actualizo el duty del LED azul
-    SCTIMER_UpdatePwmDutycycle(SCT0, kSCTIMER_Out_2, duty, pwm_led_event);
+    wrapper_pwm_update_led(kSCTIMER_Out_4, duty, pwm_led_event);
 }
 
 /**
