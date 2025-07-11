@@ -12,10 +12,8 @@ QueueHandle_t queue_lux_raw;          // cola para datos de lux (valor bruto)
 // ----------
 // Semaforo |
 // ----------
-xSemaphoreHandle semphr_buzz;    // Interrupción del Sensor IR
-xSemaphoreHandle semphr_usr;     // Boton de USER
-xSemaphoreHandle semphr_counter; // Semáforo para contador
-xSemaphoreHandle semphr_mutex;   // Semáforo mutex para el display
+xSemaphoreHandle semphr_buzz; // Interrupción del Sensor IR
+xSemaphoreHandle semphr_usr;  // Boton de USER
 
 // Handler para display (Puntero o referencia para identificar y controlar una tarea específica después de haberla creado)
 TaskHandle_t DisplayHandler;
