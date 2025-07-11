@@ -1,3 +1,7 @@
-# Trabajo Integrador - UTN F.R.A
+# Trabajo Integrador - UTN F.R.A 💻
 
 En este espacio estan subidas las consignas y carpetas necesarias acerca trabajo integrador de FreeRTOS del curso de sistemas embebidos.
+
+Dentro de la carpeta trabajo_integrador se encontrara la resolución a las consignas planteadas.
+
+---
