@@ -1,3 +1,3 @@
-# Trabajo Integrador
+# Trabajo Integrador - UTN F.R.A
 
-Este espacio es para subir la resolución del trabajo integrador del curso.
+En este espacio estan subidas las consignas y carpetas necesarias acerca trabajo integrador de FreeRTOS del curso de sistemas embebidos.
